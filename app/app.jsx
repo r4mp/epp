@@ -1,14 +1,16 @@
-import React from "react";
-import ReactDom from "react-dom";
-import { Window, Content, PaneGroup ,Pane } from "react-photonkit";
+'use strict'
+
+import React from "react"
+import ReactDOM from "react-dom"
+import { Window, Content, PaneGroup ,Pane } from "react-photonkit"
 
 import Header from "./header.jsx"
-import Footer from "./footer.jsx";
+import Footer from "./footer.jsx"
 import Sidebar from "./sidebar.jsx"
 
-require('../index.scss');
+require('../index.scss')
 
-ReactDom.render(
+ReactDOM.render(
   <Window>
     <Header />
     <Content>
@@ -21,4 +23,4 @@ ReactDom.render(
     </Content>
     <Footer />
   </Window>
-  , document.querySelector("#main"));
+  , main)

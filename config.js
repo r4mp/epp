@@ -1,5 +1,5 @@
-'use strict';
+'use strict'
 
 module.exports = {
-  'port': 8576
-};
+    'port': 8576
+}

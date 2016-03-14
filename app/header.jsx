@@ -1,5 +1,7 @@
-import React from "react";
-import { Toolbar, Actionbar, Button, ButtonGroup } from "react-photonkit";
+'use strict'
+
+import React from "react"
+import { Toolbar, Actionbar, Button, ButtonGroup } from "react-photonkit"
 
 class Header extends React.Component {
   render() {
@@ -12,8 +14,8 @@ class Header extends React.Component {
           </ButtonGroup>
         </Actionbar>
       </Toolbar>
-    );
+    )
   }
 }
 
-export default Header;
+export default Header

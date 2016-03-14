@@ -5,7 +5,7 @@ import { Pane, NavGroup, NavTitle, NavGroupItem } from "react-photonkit"
 
 class Sidebar extends React.Component {
     onSelect(index) {
-        console.log("sidebar clicked with ${index}")
+        console.log(`sidebar clicked with ${index}`)
     }
 
     render() {
